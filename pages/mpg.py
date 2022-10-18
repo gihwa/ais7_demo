@@ -66,7 +66,7 @@ st.plotly_chart(pxh)
 bb = px.histogram(data, x="cylinders", title="하나 더 그리기")
 st.plotly_chart(bb)
 
-cc = px.histogram(data, x="origin", y="gorsepower", title="두번 그리기")
+cc = px.histogram(data, x="origin", y="horsepower", title="두번 그리기")
 st.plotly_chart(cc)
 
 # 진급한 병장이재모 따라하기
